@@ -1,0 +1,54 @@
+html {
+  background: rgb(230, 215, 190);
+}
+
+header{
+  background: rgb(0, 120, 200);
+  display: flex;
+  align-items: center;
+}
+
+section {
+  box-shadow: 10px 13px 22px 11px rgba(0,0,0,0.53);
+  padding: 4em;
+  min-height: 60vh;
+}
+
+
+/* STYLES POUR NAVIGATION*/
+nav {
+width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  background: rgb(255, 255, 255);
+  padding: 1em;
+}
+
+
+
+/* STYLES POUR SECTION 01 */
+
+#section01 {
+  background: url('images/chien.png') no-repeat top center;
+  background-size: cover;
+  top-center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section01 h1 {
+  color: rgb(230, 215, 190);
+}
+
+#section03  {
+text-align: center;
+}
